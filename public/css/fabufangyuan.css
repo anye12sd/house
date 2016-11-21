@@ -1,0 +1,391 @@
+.top, body {
+    width: 100%
+}
+
+.dasha ul, .label ul {
+    list-style: none
+}
+
+.add .left:before, .after:after, .alert1 p:after, .dasha ul li span:nth-of-type(2):after, .selected:after {
+    content: ""
+}
+
+body {
+    background: #efeff4;
+    margin: 0;
+    padding: 0
+}
+
+.top {
+    height: 50px;
+    background: #fff;
+    padding-top: 20px;
+    position: relative;
+}
+
+.top .pic {
+    margin: 7px 0 0 5%;
+    position: absolute;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.top-text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.add {
+    margin: 20px;
+    position: relative
+}
+
+.add .left {
+    display: inline-block;
+    width: 71%
+}
+
+.add .left .text {
+    width: 82%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    padding-left: 34px;
+    font-size: 14px
+}
+
+.add .left:before {
+    display: inline-block;
+    background: url(../img/banner_icon_search@2x.png) center no-repeat;
+    width: 26px;
+    height: 26px;
+    background-size: 20px;
+    top: 6px;
+    left: 7px;
+    position: absolute
+}
+
+.add .right {
+    display: inline-block;
+    font-size: 14px
+}
+
+.dasha {
+    background: #fff;
+    padding: 20px
+}
+
+.dasha > .title {
+    font-size: 18px
+}
+
+.dasha ul li span:nth-of-type(1) {
+    width: 22%;
+    display: inline-block;
+    text-align: right;
+    font-size: 14px;
+    color: #666
+}
+
+.alert, .alert1, .btn2, .upload {
+    text-align: center
+}
+
+.dasha ul li span:nth-of-type(2) {
+    display: inline-block;
+    width: 78%;
+    font-size: 14px;
+    color: #999;
+}
+
+.btn2 .fangyuan>.title {
+    font-size: 20px
+}
+
+.dasha ul li span:nth-of-type(2):after {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ccc
+}
+
+.fangyuan {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+}
+
+.label ul li {
+    float: left;
+    margin-right: 25px
+}
+
+.label {
+    margin-left: 40px
+}
+
+.label ul li i {
+    display: inline-block;
+    background: url(../img/content_nor_icon@2x.png) center no-repeat;
+    width: 13px;
+    height: 12px;
+    background-size: 10px
+}
+
+.after:after {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ccc
+}
+
+.square, .square1 {
+    height: 40px;
+    background: #ddd;
+    border: none
+}
+
+.square {
+    width: 40%;
+    border-radius: 5px;
+    padding-left: 20px
+}
+
+.square1 {
+    width: 66%;
+    border-radius: 5px;
+    padding-left: 20px
+}
+
+.square2, .square3 {
+    width: 39%;
+    height: 40px;
+    border: none;
+    padding-left: 20px;
+    background: #ddd
+}
+
+.square2 {
+    border-radius: 5px;
+    margin-right: 1%;
+    float: left
+}
+
+.do, .square3 {
+    float: right
+}
+
+.square3 {
+    border-radius: 5px
+}
+
+.square4 {
+    width: 68%;
+    height: 100px;
+    background: #ddd;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    vertical-align: top
+}
+
+.box1, .selected {
+    vertical-align: middle
+}
+
+.input1 {
+    margin-top: 10px;
+    position: relative
+}
+
+.input1 > .text {
+    width: 25%;
+    display: inline-block
+}
+
+.box {
+    position: absolute;
+    width: 50%;
+    right: 31px;
+    z-index: 2
+}
+
+.select {
+    background: #ccc;
+    padding: 10px;
+    display: none;
+    margin-left: 36%
+}
+
+.selected {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 15px;
+    overflow: hidden;
+    height: 40px;
+    border-radius: 5px;
+    width: 68%;
+    background: #ddd;
+    line-height: 40px;
+    color: #999;
+    position: relative
+}
+
+.selected:after {
+    display: block;
+    background: url(../img/nav_down_icon@2x.png) center no-repeat;
+    width: 20px;
+    height: 36px;
+    background-size: 16px;
+    top: 0;
+    right: 15px;
+    position: absolute
+}
+
+.btn1, .upload {
+    display: inline-block
+}
+
+.btn1 {
+    background: url(../img/content_nor_icon@2x.png) center no-repeat;
+    width: 13px;
+    height: 12px;
+    background-size: 10px;
+    margin-right: 5px
+}
+
+.upload {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    margin-top: 20px;
+    margin-right: 20px
+}
+
+.upload i {
+    background: url(../img/content_plus_icon@2x.png) center no-repeat;
+    width: 24px;
+    height: 12px;
+    display: block;
+    margin-left: 38px;
+    padding-top: 40px
+}
+
+.alert p, .alert1 p {
+    padding-top: 20px
+}
+
+.btn2 {
+    margin-top: 10px;
+    width: 92%;
+    margin-left: 4%;
+    border-radius: 5px;
+    background: #ff4500;
+    color: #fff;
+    height: 50px;
+    line-height: 50px
+}
+
+.btn, .do {
+    color: orange
+}
+
+.alert1 {
+    width: 70%;
+    height: 114px;
+    background: #fff;
+    border-radius: 10px;
+    position: fixed;
+    left: 15%;
+    top: 44%;
+    z-index: 11;
+    display: none
+}
+
+.alert1 p:after {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    margin-top: 20px
+}
+
+.alert, .zhezhao {
+    position: fixed;
+    display: none
+}
+
+.btn {
+    width: 50px;
+    border: none;
+    background: #fff;
+    font-size: 22px;
+    margin-top: 7px
+}
+
+.zhezhao {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, .5)
+}
+
+.alert {
+    width: 70%;
+    height: 114px;
+    background: #fff;
+    border-radius: 10px;
+    left: 15%;
+    top: 44%;
+    z-index: 11
+}
+
+.alert p:after, .alert:after {
+    content: "";
+    display: block;
+    background: #ccc
+}
+
+.alert:after {
+    margin-left: 50%;
+    width: 1px;
+    height: 42%
+}
+
+.alert p:after {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px
+}
+
+.cancel, .do {
+    width: 49%;
+    border: none;
+    background: #fff;
+    font-size: 22px;
+    margin-top: 7px
+}
+
+.cancel {
+    float: left
+}
+
+.left i {
+    background: url(../img/content_delet_icon@2x.png) center no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 56%;
+    display: none
+}
+
+.box1 {
+    display: inline-block;
+    width: 71%
+}

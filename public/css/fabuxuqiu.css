@@ -1,0 +1,131 @@
+.top, body {
+    width: 100%
+}
+
+.alert, .top-text {
+    text-align: center
+}
+
+.alert p, .top {
+    padding-top: 20px
+}
+
+body {
+    background: #efeff4
+}
+
+.alert, .top {
+    background: #fff
+}
+
+.top {
+    height: 50px;
+    position: relative
+}
+
+.number input, .text input {
+    height: 40px;
+    border-radius: 5px;
+    width: 80%;
+    padding-left: 10px
+}
+
+.top .pic, .top .upload {
+    position: absolute;
+    font-size: 16px
+}
+
+.top .pic {
+    margin: 7px 0 0 5%
+}
+
+.top .upload {
+    margin: -32px 0 0 84%;
+    color: orange
+}
+
+.number, .text, .textarea {
+    margin: 20px 0 0 10%
+}
+
+.top-text {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.text input {
+    border: none
+}
+
+.number input {
+    border: none
+}
+
+.textarea textarea {
+    width: 80%;
+    height: 200px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none
+}
+
+.alert {
+    width: 70%;
+    height: 114px;
+    border-radius: 10px;
+    position: fixed;
+    left: 15%;
+    top: 44%;
+    z-index: 11;
+    display: none
+}
+
+.alert p:after, .alert:after {
+    content: "";
+    display: block;
+    background: #ccc
+}
+
+.alert:after {
+    margin-left: 50%;
+    width: 1px;
+    height: 42%
+}
+
+.alert p:after {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px
+}
+
+.cancel, .do {
+    width: 49%;
+    border: none;
+    background: #fff;
+    font-size: 22px;
+    margin-top: 7px
+}
+
+.do {
+    float: right;
+    color: orange
+}
+
+.cancel {
+    float: left
+}
+
+.zhezhao {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, .5);
+    display: none
+}
+
+textarea[placeholder] {
+    color: red !important
+}

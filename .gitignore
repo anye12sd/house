@@ -1,0 +1,7 @@
+.idea/
+*.exe
+node_modules/
+git/
+public/
+routes/
+views/

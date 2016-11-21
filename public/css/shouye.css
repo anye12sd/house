@@ -1,0 +1,388 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #efeff4
+}
+
+.swiper-container {
+    width: 100%;
+    height: 320px
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%
+}
+
+.swiper-pagination-bullet {
+    background: url(../img/banner_icon_point_nor@2x.png) no-repeat;
+    background-size: cover;
+    opacity: 1
+}
+
+.swiper-pagination-bullet-active {
+    background: url(../img/banner_icon_point_press@2x.png) no-repeat;
+    background-size: cover
+}
+
+.city-selector {
+    height: 30px;
+    padding: 0 15px;
+    position: absolute;
+    top: 10px;
+    z-index: 15;
+    color: #fff
+}
+
+.city-selector span {
+    line-height: 30px;
+    padding: 0;
+    display: block;
+    float: left
+}
+
+.city-selector i {
+    display: block;
+    float: left;
+    background: url(../img/arrow-down.png) center no-repeat;
+    width: 20px;
+    height: 30px;
+    background-size: 15px
+}
+
+.search-container1 {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    left: 15px;
+    z-index: 10;
+    height: 35px;
+    text-align: center
+}
+
+.search-box1 {
+    width: 100%;
+    height: 35px;
+    color: #bdbdbd;
+    line-height: 35px;
+    border-radius: 5px;
+    background-color: #f1f1f1
+}
+
+.icon-search {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url(../img/banner_icon_search@2x.png) center no-repeat;
+    background-size: 13px;
+    vertical-align: bottom
+}
+
+.content, .nav {
+    background: #fff
+}
+
+.nav {
+    position: absolute;
+    margin-top: 270px;
+    height: 50px
+}
+
+.list ul li, .list ul li:last-of-type {
+    float: left;
+    height: 33px;
+    text-align: center
+}
+
+.list ul {
+    list-style: none;
+    width: 100%
+}
+
+.list ul li {
+    width: 20%;
+    border-right: 1px solid #000;
+    margin-top: 7px
+}
+
+.list ul li:last-of-type {
+    width: 18%;
+    border-right: none;
+    margin-top: 14px
+}
+
+.content {
+    margin-top: 15px;
+    width: 100%;
+    position: relative
+}
+
+.content img {
+    padding: 9px
+}
+
+.content-text {
+    width: 52%;
+    position: absolute;
+    left: 45%;
+    top: 0
+}
+
+.leftTop {
+    margin-top: 13px;
+    font-size: 16px
+}
+
+.leftBottom, .leftMiddle, .leftMiddle2 {
+    margin-top: 2px
+}
+
+.leftMiddle {
+    font-size: 12px;
+    color: #333
+}
+
+.leftMiddle2 {
+    font-size: 10px;
+    border: 1px solid #ff4500;
+    padding: 1px;
+    border-radius: 5px;
+    width: 29%;
+    margin-left: 3px;
+    color: #ff4500;
+    text-align: center
+}
+
+.like, .liked {
+    float: right;
+    width: 28px;
+    height: 26px
+}
+
+.like {
+    background: url(../img/collect_icon_nor@2x.png) no-repeat;
+    background-size: 18px
+}
+
+.liked {
+    background: url(../img/collect_icon_press@2x.png) no-repeat;
+    background-size: 18px
+}
+
+.toTop {
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+    background: url(../img/content_btn_back@2x.png) no-repeat;
+    width: 47px;
+    height: 47px;
+    background-size: 47px
+}
+
+.title {
+    position: absolute;
+    top: 12px;
+    left: 45%;
+    font-size: 18px;
+    z-index: 10;
+    color: #fff
+}
+
+.ding {
+    margin-top: 51px
+}
+
+.topbox {
+    display: none
+}
+
+.classih {
+    background: url(../img/content_icon02_press@2x.png) center no-repeat;
+    width: 8px;
+    height: 8px;
+    display: block;
+    margin: 0 auto
+}
+
+.jiage, .mianji, .zhezhao {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0
+}
+
+.jiage, .mianji {
+    z-index: 13;
+    background: #efeff4
+}
+
+.jiage input, .mianji input {
+    width: 60px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+.jiage input:nth-of-type(1), .mianji input:nth-of-type(1) {
+    width: 60px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px
+}
+
+.jiage .box, .mianji .box {
+    width: 240px;
+    margin: 5px auto 0
+}
+
+.mianjiOption, .priceOption {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px
+}
+
+.more .left div, .more .right .ditie div, .more .right .fangxing div, .more .right .zhuangxiu div, .province .left div, .province .right .xian div, .province .right div {
+    padding: 12px;
+    font-size: 18px
+}
+
+.btn01 {
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 10px
+}
+
+.more .left, .province .left {
+    width: 50%;
+    float: left
+}
+
+.zhezhao {
+    z-index: 12;
+    bottom: 9%;
+    background: rgba(0, 0, 0, .5)
+}
+
+.more, .province {
+    top: 100px;
+    left: 0;
+    right: 0;
+    background: #efeff4;
+    z-index: 13;
+    display: none;
+    max-height: 480px;
+    position: fixed
+}
+
+.province .left {
+    overflow-y: auto;
+    max-height: 480px;
+    overflow-x: hidden
+}
+
+.more .right, .province .right {
+    float: left;
+    width: 50%;
+    background: #fFF;
+    overflow-y: auto;
+    max-height: 480px;
+    overflow-x: hidden
+}
+
+.more .right div {
+    float: left;
+    width: 100%
+}
+
+.province .right div {
+    width: 100%
+}
+
+.province .right div:after {
+    margin-top: 3px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ccc
+}
+
+.more .right .ditie, .more .right .fangxing, .more .right .zhuangxiu {
+    display: none
+}
+
+.more .right .ditie div:after, .more .right .fangxing div:after, .more .right .zhuangxiu div:after {
+    margin-top: 3px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ccc
+}
+
+.btn_box {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    z-index: 16;
+    display: none
+}
+
+.fangyuan div, .xuqiu div {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 58%
+}
+
+.xuqiu div {
+    background: url(../img/publish_btn02@2x.png) center no-repeat;
+    display: block;
+    background-size: 100px;
+    left: 16%;
+    z-index: 16
+}
+
+.fangyuan div {
+    background: url(../img/publish_btn01@2x.png) center no-repeat;
+    display: block;
+    background-size: 100px;
+    right: 15%;
+    z-index: 16
+}
+
+.fangyuan p, .xuqiu p {
+    color: #fff;
+    top: 77%;
+    position: fixed;
+    z-index: 16
+}
+
+.xuqiu p {
+    right: 21%
+}
+
+.fangyuan p {
+    left: 20%
+}
+
+.btn3 {
+    background: url(../img/publish_close_icon@2x.png) center no-repeat;
+    width: 28px;
+    height: 28px;
+    background-size: 20px;
+    display: block;
+    position: fixed;
+    top: 85%;
+    left: 47%;
+    z-index: 16
+}

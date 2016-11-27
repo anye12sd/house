@@ -1,9 +1,9 @@
 ﻿# 项目模板
 * 下载
-  - `git clone http://github.com/guanjp/autoproject.git`
+  - `https://github.com/anye12sd/house`
 
 * 进入
-  - `cd autoproject`
+  - `cd house`
 
 * 安装依赖
   - `npm install`

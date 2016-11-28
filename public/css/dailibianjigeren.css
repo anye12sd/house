@@ -67,7 +67,8 @@ body {
 
 .list2 input {
     margin-top: 4px;
-    border: none
+    border: none;
+    outline: none;
 }
 
 .list2 > i {
@@ -105,7 +106,7 @@ body {
 .list3 {
     width:60px;
     background: url(../img/content_list_right_icon@2x.png) center no-repeat;
-    height: 30px;
+    height: 36px;
     background-size: 12px;
     margin-top: 10px;
     line-height: 36px;

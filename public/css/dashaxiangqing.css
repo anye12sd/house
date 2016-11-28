@@ -12,7 +12,7 @@
 
 body {
     background: #efeff4;
-    overflow-x: hidden
+    overflow: hidden;
 }
 
 .top {
@@ -124,20 +124,29 @@ body {
 }
 
 .all > .house > ul > li {
-    flex: 1;
     display: inline-block;
     font-size: 12px;
-    margin-left: 10px
 }
 
 .all > .house > ul > li:nth-of-type(1) {
+    width:68px;
     background: url(../img/content_img_home01@2x.png) center no-repeat;
     display: inline-block;
-    width: 10px;
     height: 60px;
-    background-size: 88px
+    background-size: 88px;
+    margin-left: 10px;
 }
-
+.all > .house > ul > li:nth-of-type(2) {
+    flex: 3;
+}
+.all > .house > ul > li:nth-of-type(3) {
+    flex: 4;
+    line-height: 60px;
+}
+.all > .house > ul > li:nth-of-type(4) {
+    flex: 3;
+    line-height: 60px;
+}
 .name {
     font-size: 14px
 }
@@ -211,15 +220,18 @@ body {
     width: 90%;
     margin-left: 5%
 }
-
+.show{
+    width:100%;
+    overflow: hidden;
+}
 .slide {
-    width: 100%
+    width: 1500px;
+    position: absolute;
 }
 
 .piece {
     float: left;
-    margin: 10px 5%;
+    margin: 10px;
     padding: 10px;
-    overflow-x: auto;
-    width: 80%
+    display: inline-block;
 }

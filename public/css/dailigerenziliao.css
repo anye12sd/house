@@ -32,8 +32,8 @@ body {
 
 .list1, .list2 {
     height: 50px;
-    line-height: 50px;
-    font-size: 18px
+    line-height: 54px;
+    font-size: 14px
 }
 
 .content {
@@ -95,11 +95,11 @@ body {
 
 .edit .title {
     text-align: center;
-    font-size: 26px
+    font-size: 20px
 }
 
 .bianji, .edit .sign {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center
 }
 

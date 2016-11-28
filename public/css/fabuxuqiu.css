@@ -32,15 +32,15 @@ body {
 
 .top .pic, .top .upload {
     position: absolute;
-    font-size: 16px
+    font-size: 14px
 }
 
 .top .pic {
-    margin: 7px 0 0 5%
+    margin: 11px 0 0 5%
 }
 
 .top .upload {
-    margin: -32px 0 0 84%;
+    margin: -29px 0 0 84%;
     color: orange
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .top-text {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
 }
 
@@ -66,7 +66,8 @@ body {
     height: 200px;
     padding-left: 10px;
     border-radius: 5px;
-    border: none
+    border: none;
+    resize: none;
 }
 
 .alert {

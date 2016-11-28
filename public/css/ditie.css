@@ -16,7 +16,8 @@ body {
     border: none;
     padding-left: 40px;
     margin-top: 40px;
-    background: #efeff4
+    background: #efeff4;
+    outline: none;
 }
 
 .search:before {

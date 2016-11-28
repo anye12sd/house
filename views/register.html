@@ -58,14 +58,14 @@
 </div>
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script>
-    $(".shenfeng span:nth-of-type(2)").click(function(){
-        if($(this).attr("class")=="arrow"){
-            $(this).removeClass("arrow");
-            $(this).addClass("arrow1");
+    $(".shenfeng").click(function(){
+        if($(".shenfeng span:nth-of-type(2)").attr("class")=="arrow"){
+            $(".shenfeng span:nth-of-type(2)").removeClass("arrow");
+            $(".shenfeng span:nth-of-type(2)").addClass("arrow1");
             $(".list").css("display","block");
         }else{
-            $(this).removeClass("arrow1");
-            $(this).addClass("arrow");
+            $(".shenfeng span:nth-of-type(2)").removeClass("arrow1");
+            $(".shenfeng span:nth-of-type(2)").addClass("arrow");
             $(".list").css("display","none");
         }
     });

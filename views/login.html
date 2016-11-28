@@ -22,10 +22,10 @@
     </div>
     <div class="content">
         <div class="txt">
-            <i></i><span class="text">帐号：</span><input type="text" placeholder="请输入您的手机号" class="txt1">
+            <i></i><span class="text">帐号：</span><input type="text" placeholder="请输入您的手机号" class="txt1" name="username">
         </div>
         <div class="pass">
-            <i></i><span class="password">密码：</span><input type="password" placeholder="请输入您的密码" class="pass1">
+            <i></i><span class="password">密码：</span><input type="password" placeholder="请输入您的密码" class="pass1" name="password">
         </div>
     </div>
 
@@ -39,8 +39,9 @@
     $(".pass1").change(function(){
         $(".btn").css("background","orange");
         $(".btn").removeAttr("disabled");
-        $(".btn").click(function(){
-            window.location="shouye.html"
+        $(".btn").one("click",function(){
+            window.location="My.html";
+            login.enter();
         });
     });
     $(".forget").click(function(){
@@ -51,7 +52,40 @@
     });
     $(".pic").click(function(){
         history.back();
-    })
+    });
+//    var login = login || {};
+//    login.enter = function(){
+//        login.username = $("[name='username']").val();
+//        login.password = $("[name='password']").val();
+//        login.judge();
+//        $(".btn").one('click',function(){
+//            login.enter();
+//        });
+//    };
+//
+//    login.judge = function() {
+//        $.ajax({
+//            url: "/api/admin/session",
+//            type: "post",
+//            dataType: "json",
+//            data: {
+//                "user[full_name]": login.username,
+//                "user[password]": login.password
+//            },
+//            complete: function (result) {
+//                if (result.status === 200) {
+//                    token = result.responseJSON.data.attributes.token;
+//                    sessionStorage.token = token;
+//                    sessionStorage.name = "aaa";
+//                    window.location.href ="My.html"
+//                    console.log(sessionStorage.token)
+//                } else {
+//                    console.log("no")
+//                }
+//            }
+//        });
+//    }
+
 </script>
 
 </body>

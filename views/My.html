@@ -142,6 +142,29 @@
     $(".l1").click(function(){
         window.location = 'shoucang.html'
     });
+
+    var login = login || {};
+    $(function(){
+        login.get()
+    });
+    login.get = function() {
+        $.ajax({
+            url: "/api/admin/stores",
+            type: "get",
+            dataType: "json",
+            headers: {
+                'X-Api-Key': sessionStorage.token
+            },
+            complete: function (result) {
+                if (result.status === 200) {
+                    data = result.responseJSON.data;
+                    console.log(data);
+                } else {
+                    console.log("no")
+                }
+            }
+        });
+    };
     </script>
 </body>
 </html>
